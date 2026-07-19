@@ -1,9 +1,0 @@
-{
-  "version": 2,
-  "builds": [
-    { "src": "VENT/**", "use": "@vercel/static" }
-  ],
-  "routes": [
-    { "src": "/(.*)", "dest": "/VENT/index.html" }
-  ]
-}

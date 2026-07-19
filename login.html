@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VENT | Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container">
+        <a class="brand" href="index.html">
+          <span class="brand-badge">🌱</span>
+          <span>VENT</span>
+        </a>
+        <nav class="nav-links desktop-links">
+          <a href="index.html">Home</a>
+          <a href="signup.html">Sign Up</a>
+          <a href="about.html">About</a>
+        </nav>
+        <div class="nav-actions">
+          <button class="theme-toggle" type="button">🌙</button>
+        </div>
+      </div>
+    </header>
+
+    <main class="auth-shell">
+      <section class="form-card">
+        <h1>Welcome back</h1>
+        <p class="helper">Log in to your VENT account and continue connecting with trusted partners.</p>
+        <form>
+          <div class="form-grid">
+            <div class="full">
+              <label for="email">Email</label>
+              <input id="email" type="email" placeholder="you@example.com" />
+            </div>
+            <div class="full">
+              <label for="password">Password</label>
+              <input id="password" type="password" placeholder="Enter password" />
+            </div>
+            <div class="full checkbox-row">
+              <input id="remember" type="checkbox" />
+              <label for="remember">Remember me</label>
+            </div>
+            <div class="full">
+              <button class="btn btn-primary" type="button">Log in</button>
+            </div>
+          </div>
+        </form>
+        <p class="helper"><a href="signup.html">Create an account</a> • <a href="help.html">Forgot password?</a></p>
+      </section>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

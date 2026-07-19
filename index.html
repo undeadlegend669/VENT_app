@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VENT | Freshness is Just a Click Away</title>
+    <meta name="description" content="VENT is a modern agricultural marketplace connecting farmers, buyers, warehouses, and logistics partners." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container">
+        <a class="brand" href="index.html">
+          <span class="brand-badge">🌱</span>
+          <span>VENT</span>
+        </a>
+
+        <div class="search-box desktop-search">
+          <span>🔎</span>
+          <input type="text" placeholder="Search farmers, buyers, products" />
+        </div>
+
+        <nav class="nav-links desktop-links">
+          <a href="index.html">Home</a>
+          <a href="profile.html">Profile</a>
+          <a href="warehouses.html">Warehouses</a>
+          <a href="logistics.html">Logistics</a>
+          <a href="premium.html">Premium</a>
+          <a href="help.html">Help</a>
+          <a href="about.html">About</a>
+        </nav>
+
+        <div class="nav-actions">
+          <div style="position: relative;">
+            <button class="icon-btn notification-toggle" type="button">🔔</button>
+            <div class="notification-panel">
+              <div class="notification-item">New like on your fresh tomato post.</div>
+              <div class="notification-item">Premium membership expires in 3 days.</div>
+              <div class="notification-item">New recommendation for maize buyers.</div>
+            </div>
+          </div>
+          <button class="theme-toggle" type="button">🌙</button>
+          <a href="profile.html"><img class="avatar" src="images/farmer-portrait.svg" alt="Profile" /></a>
+          <button class="hamburger" type="button">☰</button>
+        </div>
+      </div>
+
+      <div class="mobile-nav container">
+        <a href="index.html">Home</a>
+        <a href="search.html">Search</a>
+        <a href="profile.html">Profile</a>
+        <a href="warehouses.html">Warehouses</a>
+        <a href="logistics.html">Logistics</a>
+        <a href="premium.html">Premium</a>
+        <a href="help.html">Help</a>
+        <a href="about.html">About</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div class="hero-card">
+            <div class="hero-badges">
+              <span class="badge">🌾 Farmers</span>
+              <span class="badge">📦 Warehouses</span>
+              <span class="badge">🚚 Logistics</span>
+            </div>
+            <h1>Freshness is Just a Click Away.</h1>
+            <p>VENT is a modern agricultural marketplace that helps farmers connect directly with buyers, while also making storage and transport easier to discover.</p>
+            <div class="hero-cta">
+              <a class="btn btn-primary" href="signup.html">Join VENT</a>
+              <a class="btn btn-secondary" href="search.html">Explore the marketplace</a>
+            </div>
+
+            <div class="panel search-panel">
+              <h3>Find what you need</h3>
+              <form>
+                <div class="input-row">
+                  <input type="text" placeholder="Search products" />
+                  <select>
+                    <option>Farmers</option>
+                    <option>Buyers</option>
+                    <option>Companies</option>
+                  </select>
+                </div>
+                <div class="input-row">
+                  <input type="text" placeholder="Location" />
+                  <button class="btn btn-primary" type="button">Search</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="hero-visual">
+            <img src="images/hero-illustration.svg" alt="A modern agricultural marketplace illustration" />
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Farmer stories</h2>
+            <a href="search.html">See all</a>
+          </div>
+          <div class="story-row">
+            <article class="story-card">
+              <img src="images/farmer-portrait.svg" alt="A featured farmer" />
+              <h3>Nadia Farms</h3>
+              <p>Fresh tomatoes and leafy greens delivered weekly.</p>
+            </article>
+            <article class="story-card">
+              <img src="images/warehouse-visual.svg" alt="A warehouse partner" />
+              <h3>Green Vault</h3>
+              <p>Cold storage ready for export-quality produce.</p>
+            </article>
+            <article class="story-card">
+              <img src="images/hero-illustration.svg" alt="A logistics partner" />
+              <h3>Swift Haul</h3>
+              <p>Reliable delivery for bulk farm produce.</p>
+            </article>
+            <article class="story-card">
+              <img src="images/farmer-portrait.svg" alt="A featured buyer" />
+              <h3>Urban Harvest</h3>
+              <p>Buyers sourcing premium vegetables directly.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container feed-layout">
+          <div class="feed-stack">
+            <div class="section-head">
+              <h2>Recent posts</h2>
+              <a href="dashboard.html">Open dashboard</a>
+            </div>
+
+            <article class="feed-card">
+              <div class="post-top">
+                <div class="user-row">
+                  <img class="avatar-sm" src="images/farmer-portrait.svg" alt="Farmer" />
+                  <div>
+                    <strong>Amina Okafor</strong>
+                    <div class="post-meta">Premium Farmer • 2h ago • Lagos</div>
+                  </div>
+                </div>
+                <span class="badge">Verified</span>
+              </div>
+              <p>Fresh red peppers harvested this morning. Available for bulk buyers and local retailers. Delivery support available.</p>
+              <img class="post-image" src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?auto=format&fit=crop&w=900&q=80" alt="Fresh produce on a farm" />
+              <div class="pill-row">
+                <span class="pill">Pepper</span>
+                <span class="pill">Bulk Supply</span>
+                <span class="pill">Premium</span>
+              </div>
+              <div class="post-actions">
+                <button class="action-btn" data-label="Like">👍 120</button>
+                <button class="action-btn" data-label="Comment">💬 24</button>
+                <button class="action-btn" data-label="Favorite">⭐ 18</button>
+                <button class="action-btn" data-label="Share">🔗 8</button>
+              </div>
+            </article>
+
+            <article class="feed-card">
+              <div class="post-top">
+                <div class="user-row">
+                  <img class="avatar-sm" src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=300&q=80" alt="Buyer" />
+                  <div>
+                    <strong>Daniel Cole</strong>
+                    <div class="post-meta">Buyer • 4h ago • Abuja</div>
+                  </div>
+                </div>
+                <span class="badge">New</span>
+              </div>
+              <p>Looking for reliable organic tomatoes for a weekly restaurant order. Please contact if you can supply.</p>
+              <img class="post-image" src="https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=900&q=80" alt="A buyer reviewing produce" />
+              <div class="pill-row">
+                <span class="pill">Tomatoes</span>
+                <span class="pill">Restaurants</span>
+                <span class="pill">Weekly Supply</span>
+              </div>
+              <div class="post-actions">
+                <button class="action-btn" data-label="Like">👍 45</button>
+                <button class="action-btn" data-label="Comment">💬 9</button>
+                <button class="action-btn" data-label="Favorite">⭐ 10</button>
+                <button class="action-btn" data-label="Share">🔗 3</button>
+              </div>
+            </article>
+          </div>
+
+          <aside class="sidebar-stack">
+            <div class="feed-card">
+              <div class="section-head">
+                <h3>Suggested farmers</h3>
+                <a href="search.html">View</a>
+              </div>
+              <div class="story-row">
+                <div class="story-card">
+                  <img src="images/farmer-portrait.svg" alt="Suggested farmer" />
+                  <h4>Grace Farms</h4>
+                  <p>4.9 rating</p>
+                </div>
+                <div class="story-card">
+                  <img src="images/farmer-portrait.svg" alt="Suggested farmer" />
+                  <h4>River Valley</h4>
+                  <p>4.8 rating</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="feed-card">
+              <div class="section-head">
+                <h3>Recommended buyers</h3>
+                <a href="search.html">View</a>
+              </div>
+              <div class="story-row">
+                <div class="story-card">
+                  <h4>Harvest Hub</h4>
+                  <p>Retail network</p>
+                </div>
+                <div class="story-card">
+                  <h4>Fresh Market</h4>
+                  <p>Export buyer</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="feed-card">
+              <div class="section-head">
+                <h3>Trending products</h3>
+                <a href="search.html">View</a>
+              </div>
+              <div class="pill-row">
+                <span class="pill">Cassava</span>
+                <span class="pill">Yam</span>
+                <span class="pill">Rice</span>
+                <span class="pill">Cocoa</span>
+              </div>
+            </div>
+
+            <div class="feed-card ad-rotator">
+              <div class="ad-slide active">
+                <h3>Cold storage partner</h3>
+                <p>Secure your harvest with trusted warehouse spaces.</p>
+                <a class="btn btn-primary" href="warehouses.html">View warehouses</a>
+              </div>
+              <div class="ad-slide">
+                <h3>Fast transport available</h3>
+                <p>Book flexible logistics for short or long-distance delivery.</p>
+                <a class="btn btn-secondary" href="logistics.html">View logistics</a>
+              </div>
+            </div>
+          </aside>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container">
+          <div class="section-head">
+            <h2>Popular categories</h2>
+            <a href="search.html">Explore</a>
+          </div>
+          <div class="categories-row">
+            <article class="category-card">🥬 Leafy Greens</article>
+            <article class="category-card">🍅 Tomatoes</article>
+            <article class="category-card">🌽 Maize</article>
+            <article class="category-card">🥔 Potatoes</article>
+            <article class="category-card">🍌 Bananas</article>
+            <article class="category-card">☕ Coffee</article>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <h3>VENT</h3>
+          <p>Professional agricultural networking made simple and direct.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <ul class="list">
+            <li><a href="search.html">Search</a></li>
+            <li><a href="warehouses.html">Warehouses</a></li>
+            <li><a href="logistics.html">Logistics</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Support</h4>
+          <ul class="list">
+            <li><a href="help.html">Help Center</a></li>
+            <li><a href="about.html">About VENT</a></li>
+            <li><a href="premium.html">Premium</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <div class="chatbot">
+      <button class="chatbot-toggle" type="button">💬</button>
+      <div class="chatbot-window">
+        <div class="chatbot-header">
+          <strong>Fabrine</strong>
+          <p>Your friendly VENT guide</p>
+        </div>
+        <div class="chatbot-body">
+          <div class="chat-bubble">Hello! I can help with registration, posting, premium plans, and finding partners.</div>
+        </div>
+        <div class="suggestion-row">
+          <button class="suggestion-btn" data-prompt="How do I register?" type="button">How do I register?</button>
+          <button class="suggestion-btn" data-prompt="How do I post products?" type="button">How do I post products?</button>
+        </div>
+        <form class="chat-form">
+          <input class="chat-input" type="text" placeholder="Ask Fabrine" />
+          <button class="btn btn-primary" type="submit">Send</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
